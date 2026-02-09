@@ -35,6 +35,11 @@ docker run -d -p 8080:80 username/app:latest \
 http://ip-of-ec2:8080 \
 The web page of index.html will appear
 ---
+Authentication Best Practices
+- Avoid hardcoding Docker Hub credentials
+- Use environment variables or secret managers
+- In CI/CD pipelines, use secret storage mechanisms
+---
 Docker Hub in AWS, Azure, and GCP \
 AWS: Used with EC2, EKS \
 Azure: Used with AKS, Azure VMs \
