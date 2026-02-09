@@ -1,5 +1,5 @@
 Docker provides a set of commands to manage container images and containers. These commands remain the same across cloud platforms such as AWS, Azure, and GCP because Docker runs on virtual machines or managed Kubernetes nodes in all these environments. \
-Prerequisites \
+Prerequisites
 - Linux VM (AWS EC2 / Azure VM / GCP Compute Engine)
 - Docker installed and running
 - User added to Docker group. \
